@@ -12,7 +12,7 @@ const LearningOptions = (props) => {
     handler:props.actionProvider.handlermobile,
   },
     {
-      text:"Photo",
+      text:"image",
       handler: props.actionProvider.handleImage,
       id : 6
     },

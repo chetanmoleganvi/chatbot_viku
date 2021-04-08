@@ -16,7 +16,7 @@ class MessageParser {
     if (lowerCaseMessage.includes("hello")) {
       this.actionProvider.greet()
     }
-    if (lowerCaseMessage.includes("who are u")) {
+    if (lowerCaseMessage.includes("who")) {
       this.actionProvider.greet2()
     }
     if (lowerCaseMessage.includes("html")) {
@@ -34,7 +34,7 @@ class MessageParser {
     if (lowerCaseMessage.includes("python")) {
       this.actionProvider.handlePython();
     }
-    if (lowerCaseMessage.includes("photo")) {
+    if (lowerCaseMessage.includes("images")) {
       this.actionProvider.handleImage();
     }
     if (lowerCaseMessage.includes("video")) {

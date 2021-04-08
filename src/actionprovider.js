@@ -79,24 +79,24 @@ class ActionProvider {
     this.updateChatbotState(message5);
   };
   handleImage = () => {
-  const imagemessage = this.createChatBotMessage (
+  const image = this.createChatBotMessage (
     "images to display",
     {
       widget: "images"
     }
   );
-  this.updateChatbotState(imagemessage)
+  this.updateChatbotState(image)
   }
 
 
   handlerVideo = () => {
-    const videomessage = this.createChatBotMessage (
+    const video = this.createChatBotMessage (
       "Here are some Videos",
       {
         widget: "videos"
       }
     );
-    this.updateChatbotState(videomessage)
+    this.updateChatbotState(video)
     }
 
     handlermobile = () => {

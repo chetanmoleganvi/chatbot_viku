@@ -235,17 +235,18 @@ const config = {
       props: {
         options: [
           {
+            title: "Samsung",
             image:'./images/mobile1.png',
              id: 1,
 
           },
           {
-            
+            title: "I Phone",
             image:'./images/mobile2.png',
             id: 2,
           },
           {
-            
+            title: "Oppo",
             image:'./images/mobile3.png',
             id: 3,
           },

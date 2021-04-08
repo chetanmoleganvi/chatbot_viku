@@ -8,6 +8,9 @@ const ListLink = (props) => {
     <li key={link.id} className="link-list-item">
        <Row>
        <Col>
+       <h6 style={{color:"Black"}}> 
+         {link.title}
+       </h6>
       <img
         src={link.image}
         alt="logo"
