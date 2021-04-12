@@ -1,26 +1,38 @@
 import React from "react";
+import { Card } from "react-bootstrap";
 
 import "./css/linklist.css";
-import {Row,Col} from 'react-bootstrap'
+import { } from 'react-bootstrap'
 
 const ListLink = (props) => {
   const linkMarkup = props.options.map((link) => (
     <li key={link.id} className="link-list-item">
-       <Row>
-       <Col>
-       <h6 style={{color:"Black"}}> 
-         {link.title}
-       </h6>
-      <img
-        src={link.image}
-        alt="logo"
-       height="100px"
-       width="200px"
+      <Card
+ className="mb-2"
+        style={{ width: '14rem', height: "12rem" }}
       >
-              
-      </img>
-      </Col>
-      </Row>
+
+
+        <Card.Header>
+          <h8 style={{ color: "black" }}>
+            {link.title}
+          </h8>
+        </Card.Header>
+        <Card.Body>
+          <a href={link.url}>
+            <Card.Img
+              src={link.image}
+              alt="logo"
+              height="100px"
+              width="200px"
+            >
+
+            </Card.Img>
+          </a>
+        </Card.Body>
+
+      </Card>
+      <br />
     </li>
   ));
 

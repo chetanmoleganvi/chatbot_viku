@@ -190,7 +190,7 @@ const config = {
       widgetFunc: (props) => <ImageLink {...props} />,
       props: {
         options: [
-
+          
           {
 
             image: './images/logo.webp',
@@ -237,17 +237,20 @@ const config = {
           {
             title: "Samsung",
             image:'./images/mobile1.png',
+            url:"https://www.samsung.com/in/offer/online/samsung-fest/",
              id: 1,
 
           },
           {
             title: "I Phone",
             image:'./images/mobile2.png',
+            url:"https://www.apple.com/in/iphone/?afid=p238%7CsKUZNbKjY-dc_mtid_20925gyh65756_pcrid_479623387890_pgrid_113765528320_&cid=wwa-in-kwgo-iphone-slid--Brand-iPhone-Availability-",
             id: 2,
           },
           {
             title: "Oppo",
             image:'./images/mobile3.png',
+            url:"https://www.oppo.com/in/",
             id: 3,
           },
 

@@ -1,13 +1,12 @@
 import React from "react";
-import {Row,Col} from 'react-bootstrap'
+import {Card} from "react-bootstrap";
 
 import "./css/linklist.css";
 
 const ImageLink = (props) => {
   const linkMarkup = props.options.map((link) => (
     <li key={link.id} className="link-list-item">
-     <Row>
-       <Col>
+     <Card>
       <img
         src={link.image}
         alt="logo"
@@ -16,8 +15,8 @@ const ImageLink = (props) => {
       >
               
       </img>
-      </Col>
-      </Row>
+      </Card>
+      <br />
     </li>
   ));
 
