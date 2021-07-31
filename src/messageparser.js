@@ -9,7 +9,12 @@ class MessageParser {
     if (lowerCaseMessage.includes("mobile")) {
       this.actionProvider.handlermobile()
     }
-    
+    if (lowerCaseMessage.includes("saree")) {
+      this.actionProvider.handlersaree()
+    }
+    if (lowerCaseMessage.includes("dress")) {
+      this.actionProvider.handlerdress()
+  }   
     if (lowerCaseMessage.includes("hi")) {
       this.actionProvider.greetig()
     }

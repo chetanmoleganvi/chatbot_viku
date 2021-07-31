@@ -107,8 +107,28 @@ class ActionProvider {
       }
       );
       this.updateChatbotState(mobile)
-    }
-   
+    };
+    handlerdress = ()=> {
+      const dress = this.createChatBotMessage(
+        "new Design",
+        {
+          widget:"dressimages"
+        }
+      );
+      this.updateChatbotState(dress)
+    };
+    handlersaree = ()=> {
+      const saree = this.createChatBotMessage(
+        "new Design",
+        {
+          widget:"sareeimages"
+        }
+      );
+      this.updateChatbotState(saree)
+    };
+  
+
+      
        updateChatbotState(message) {
    
   // NOTE: This function is set in the constructor, and is passed in      // from the top level Chatbot component. The setState function here     // actually manipulates the top level state of the Chatbot, so it's     // important that we make sure that we preserve the previous state.

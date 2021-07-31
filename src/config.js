@@ -229,6 +229,7 @@ const config = {
         ],
       },
     },
+    
     {
       widgetName: "mobileimages",
       widgetFunc: (props) => <ListLink {...props} />,
@@ -236,7 +237,7 @@ const config = {
         options: [
           {
             title: "Samsung",
-            image:'./images/mobile1.png',
+            image:'./images/dress1.jpg',
             url:"https://www.samsung.com/in/offer/online/samsung-fest/",
              id: 1,
 
@@ -257,6 +258,54 @@ const config = {
         ],
         },
     },
+    {
+      widgetName: "dressimages",
+      widgetFunc: (props) => <ListLink {...props} />,
+      props: {
+        options: [
+          {
+            title: "Design",
+            image:'./images/dress1.jpg',
+            url:"https://www.samsung.com/in/offer/online/samsung-fest/",
+             id: 1,
+             text: "Rs 350",
+
+          },
+          {
+            title: "Design",
+            image:'./images/dress2.png',
+            url:"https://www.samsung.com/in/offer/online/samsung-fest/",
+             id: 2,
+             text: "Rs 250",
+
+          },
+        ],
+        },
+      },
+      {
+        widgetName: "sareeimages",
+        widgetFunc: (props) => <ListLink {...props} />,
+        props: {
+          options: [
+            {
+              title: "Design",
+              image:'./images/saree1.jpg',
+              url:"https://www.samsung.com/in/offer/online/samsung-fest/",
+               id: 1,
+               text: "Rs 350",
+  
+            },
+            {
+              title: "Design",
+              image:'./images/saree2.jpg',
+              url:"https://www.samsung.com/in/offer/online/samsung-fest/",
+               id: 2,
+               text: "Rs 250",
+  
+            },
+          ],
+          },
+        },
 
   ],
   customStyles: {

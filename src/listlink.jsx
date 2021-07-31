@@ -1,6 +1,5 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-
 import "./css/linklist.css";
 import { } from 'react-bootstrap'
 
@@ -8,23 +7,23 @@ const ListLink = (props) => {
   const linkMarkup = props.options.map((link) => (
     <li key={link.id} className="link-list-item">
       <Card
- className="mb-2"
+          className="mb-2"
         style={{ width: '14rem', height: "12rem" }}
       >
 
 
         <Card.Header>
           <h8 style={{ color: "black" }}>
-            {link.title}
+            {link.text} {link.title}
           </h8>
         </Card.Header>
-        <Card.Body>
+        <Card.Body style={{ backgroundcolor:"green"}}>
           <a href={link.url}>
             <Card.Img
               src={link.image}
               alt="logo"
               height="100px"
-              width="200px"
+              width="200px"             
             >
 
             </Card.Img>
