@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import Navbarb from './bootstrapnav';
 //import UserSearch from './search';
 import App from './app';
+import Home from './saree/home';
+import Slide from './saree/slide';
 
 
 
@@ -17,6 +19,8 @@ class LearnReact extends React.Component {
   render() {
     return (
       <appMain>
+        <Home />
+        <Slide />
         <App />
             {/* <UserSearch /> */}
         {/* <Navbarb /> */}

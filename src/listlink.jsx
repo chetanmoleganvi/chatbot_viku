@@ -28,10 +28,14 @@ const ListLink = (props) => {
 
             </Card.Img>
           </a>
+          <p  style={{ color: "black","textAlign":"center" }}>
+        {link.text}
+        </p>
         </Card.Body>
-
+       
       </Card>
       <br />
+      
     </li>
   ));
 
