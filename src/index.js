@@ -10,10 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './app';
 import Home from './saree/home';
 import Slide from './saree/slide';
-
-
-
-
+import About from './saree/about';
+import Form from './saree/form';
+import Product from './saree/product';
 
 class LearnReact extends React.Component {
   render() {
@@ -21,6 +20,9 @@ class LearnReact extends React.Component {
       <appMain>
         <Home />
         <Slide />
+        <About />
+        <Product />
+        <Form />        
         <App />
             {/* <UserSearch /> */}
         {/* <Navbarb /> */}
