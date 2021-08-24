@@ -19,8 +19,8 @@ class MyCarousel extends React.Component {
             <Image src={Slide1} alt="Text" className="d-block w-100"/>
             <div className="container">
               <div className="carousel-caption text-right text-dark">
-                <h3>JATAAYU YOUR STAFFING FORCE</h3>
-                <p><a className="btn btn-lg btn-dark" href="#career" role="button">Join today</a></p>
+                <h3>Cotton saree</h3>
+                <p><a className="btn btn-lg btn-dark" href="#career" role="button">Be A member</a></p>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ class MyCarousel extends React.Component {
             <Image src={Slide2} alt="Text" className="d-block w-100"/>
             <div className="container">
               <div className="carousel-caption text-center">
-                <h3>SECURITY, EVENT MANAGEMENT, TOURS/TRAVELS</h3>                
+                <h3> gg </h3>                
                 <p><a className="btn btn-lg btn-primary" href="#services" role="button">Learn more</a></p>
               </div>
             </div>
@@ -38,7 +38,7 @@ class MyCarousel extends React.Component {
             <Image src={Slide3} alt="Text" className="d-block w-100"/>
             <div className="container">
               <div className="carousel-caption text-left">
-                <h2> MEET OUR STAFF & TEAM </h2>
+                <h2>  </h2>
                 <p><a className="btn btn-lg btn-primary" href="#gallery" role="button">Browse gallery</a></p>
               </div>
             </div>

@@ -18,7 +18,7 @@ class About extends React.Component {
                 <div className="card-body">
                   <h2>Company</h2>
                   <p className="card-text"> 
-                  We are new generation global integrated staffing company, specializing in the provision of work force products, services and solutions. Currently we concentrate on Security and Administration work force.</p>
+                  About the company.</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                     <a href="#about">   
@@ -36,7 +36,7 @@ class About extends React.Component {
                 <h2>Founder</h2>
                   <p className="card-text">
                    
-                    Murulidhar KS is the founder and National director of the NATIONAL CRIME CONTROL BOARD (NCCB) and founder and president of NAVA PARVA FOUNDATION. He has completed several degrees including  engineering.
+                    Chetan 
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
@@ -56,11 +56,6 @@ class About extends React.Component {
                 <h2>Directors</h2>
                   <p className="card-text">
                     <ul>
-                    <li>Murulidhar K S, Founder Director </li>
-                    <li>Shivaiah, Founder Director </li>
-                    <li>D. Shabanabi, Asst. Director </li>
-                    <li>Rashmi B. N, Asst. Director </li>
-                    <li>Ganesh Arjun Bhargav, Asst. Director</li>
                     </ul>
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
