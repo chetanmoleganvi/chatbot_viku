@@ -9,7 +9,7 @@ class About extends React.Component {
       return (
         <div className="album py-5 bg-bg-transparent" id="about" style={{ paddingTop: "3rem"}}>
         <div className="container" >
-          <h1>About</h1>
+          <h1>About us </h1>
           <div className="row">
             <div className="col-md-4">
               <div className="card mb-4 shadow-sm">                
@@ -33,11 +33,14 @@ class About extends React.Component {
                 <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#ffffff"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
                 <image href={FounderPic} height="100%" width="100%"/></svg>
                 <div className="card-body">
-                <h2>Founder</h2>
+                <h2>CEO</h2>
+                
                   <p className="card-text">
                    
-                    Chetan 
+                    Chetan Moleganvi
+                   
                   </p>
+                  <p> Owner of Vikush Communaction</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <a href="#directors"> 
@@ -53,10 +56,12 @@ class About extends React.Component {
                 <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
                 <image href={Directors} height="100%" width="100%"/></svg>
                 <div className="card-body">
-                <h2>Directors</h2>
+                <h2>Manging Directors</h2>
                   <p className="card-text">
-                    <ul>
-                    </ul>
+                   Shilpa Moleganvi
+                  </p>
+                  <p className="card-text">
+                  Owner of Vikush Fancy Stores
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import Slide1 from '../images/slide1.jpeg';
-import Slide2 from '../images/slide2.jpg';
-import Slide3 from '../images/slide3.jpg';
+import Slide1 from '../images/admission.png';
+import Slide2 from '../images/Scholarships.png';
+import Slide3 from '../images/Onlineadmissions.jpg';
+
 
 class MyCarousel extends React.Component {
     render() {
