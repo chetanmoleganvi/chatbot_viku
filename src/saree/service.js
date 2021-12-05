@@ -7,7 +7,7 @@ import Schlorship from '../images/ship.jpg';
 const Services = () => {
 	return (
             <main role="main" className="container">
-               <div>
+               <div id="services">
                <h1> Our Company Serivces</h1>
                </div>
                 <div className="container marketing">

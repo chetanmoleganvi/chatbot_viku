@@ -4,7 +4,7 @@ import { Form, Button, Row, Col } from "react-bootstrap";
 class Reg extends React.Component {
   render() {
     return (
-      <div className="container" >
+      <div className="container" id="form">
         <div className="row">
           <div className="col-md-8">
             <div className="card mb-4 shadow-sm">

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../images/logo.png';
+import Logo from '../images/logo.jpg';
 import '../css/style.css';
 import '../css/navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
@@ -26,14 +26,15 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Link to="/" className="nav-link line current" onClick={() => setExpanded(false)}>Home</Link>
+                        <Link to="#about" className="nav-link line current" onClick={() => setExpanded(false)}>About</Link>
+
                         <div class="menudropdown">
-                            <p className="nav-link">Services <i class="fa fa-caret-down"></i>
-                            </p>
+                        <Link to="#services" className="nav-link line current" onClick={() => setExpanded(false)}>Services</Link>
                             <div class="menudropdown-content" style={{ paddingTop: "0.9rem" }}>
 
                                 <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}  >
                                     <Image src={SCHOLARSHIP} className="imagecenter" Height="100px" width="100px" />
-                                    <Link to="/smartmonotor" style={{ color: "white", "text-align": "center" }}> <h4>Scholarship</h4> </Link>
+                                    <Link to="/scholarship" style={{ color: "white", "text-align": "center" }}> <h4>Scholarship</h4> </Link>
                                     </div>
                                     <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
                                         <Image style={{ "align-items": "center" }} src={UG} className="imagecenter" Height="100px" width="100px" />
@@ -52,13 +53,14 @@ const Header = () => {
                                 </div>
                             </div>
                    
-                        <Link to="#about" className="nav-link line current" onClick={() => setExpanded(false)}>About</Link>
                         <Link to="#contact" className="nav-link line " onClick={() => setExpanded(false)}>Contact</Link>
+                        <Link to="#form" className="nav-link line " onClick={() => setExpanded(false)}>Registration </Link>
+ 
                     </Nav>
                     <Form inline>
                         <span style={{ fontSize: "16px", color: 'white' }}><i className="fa fa-phone"></i>&emsp;<Link to="+91 9880104339" style={{ color: "grey" }}> +91 9880104339 </Link>  </span>&emsp;
                         <i class="fa fa-envelope" style={{ "font-size": "20px", "color": "white" }}></i>&emsp; <Link to="chetan.moleganvi@gmail.com" style={{ color: "grey" }}>chetan.moleganvi@gmail.com</Link>
-                        <a href="#Adress" className="nav-link line current"><i className="fa fa-map"></i>&emsp; Reach Us</a>
+                        <a href="https://www.google.com/maps/place/G+S+MOLEGANVI+saree's/@16.4824476,75.1237087,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc730c680cb13d3:0x6ec9042db5c3bb40!8m2!3d16.4824476!4d75.1258974" className="nav-link line current"><i className="fa fa-map"></i>&emsp; Reach Us</a>
                     </Form>
 
                 </Navbar.Collapse>

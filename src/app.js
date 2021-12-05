@@ -16,7 +16,7 @@ function App() {
   }
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
       {/* <Chatbot config={config} actionProvider={ActionProvider} messageParser={MessageParser} /> */}
       <div className="bottom-right-text" value="Click to Open Popup" onClick={togglePopup}>
         <i class="fa fa-comments" style={{"font-size":"55px"}}></i>

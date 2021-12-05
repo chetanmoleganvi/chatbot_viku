@@ -7,6 +7,7 @@ import Services from '../saree/service';
 import Form from '../saree/form';
 import Product from '../saree/product';
 import Slider from '../saree/slider'
+import Footer from '../saree/footer'
 
 const Home = () => {
   return (
@@ -18,7 +19,8 @@ const Home = () => {
         <Services />
         <Product />
         <Form />
-        <App />
+        <Footer />
+        <App />        
       </appMain>
       </div>
       );    
