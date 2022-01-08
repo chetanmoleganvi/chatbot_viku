@@ -18,7 +18,7 @@ const Services = () => {
                                     <image href={Schlorship} alt="Tool-img" width="80%" height="80%" />
                                     <title>Placeholder</title>
                                 </svg>
-                                <h2 style={{ "text-align": "center" }}>Online Schlorship from </h2>
+                                <h2 style={{ "text-align": "center", "paddingtop":"2" }}>Online Schlorship from </h2>
                                 <p>
                                 <li> N S P</li>
                                 <li> S S P</li> 

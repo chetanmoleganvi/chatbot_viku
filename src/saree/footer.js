@@ -21,7 +21,7 @@ class Footer extends Component {
                 <div className="row">
                     <div className="col-sm-4">
                       {/* <svg className="bd-placeholder-img" width="100px" height="30px" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"> */}
-                        <img src={Logo} alt="Tool-img" width="110px" height="90px"/>
+                        <img src={Logo} alt="Tool-img" width="50%" height="50%"/>
                         <title>Placeholder</title>
                       {/* </svg> */}
                       <p className="card-text" style={{color:"white"}}> “Vikush online servies and Vikush Stationary has ben started for all 
