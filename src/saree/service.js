@@ -3,6 +3,7 @@ import RCUB from '../images/rcub.png';
 import Online  from '../images/online.png';
 import Career from '../images/career.png';
 import Schlorship from '../images/ship.jpg';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
 	return (
@@ -18,7 +19,7 @@ const Services = () => {
                                     <image href={Schlorship} alt="Tool-img" width="80%" height="80%" />
                                     <title>Placeholder</title>
                                 </svg>
-                                <h2 style={{ "text-align": "center", "paddingtop":"2" }}>Online Schlorship from </h2>
+                               <Link to ="/scholarship" style={{ color: "black", "text-align": "center" }}> <h2 style={{ "text-align": "center", "paddingtop":"2" }}>Online Schlorship from </h2> </Link>
                                 <p>
                                 <li> N S P</li>
                                 <li> S S P</li> 
@@ -33,7 +34,7 @@ const Services = () => {
                                     <image href={RCUB} alt="Tool-img" width="80%" hight="80%" />
                                     <title>Placeholder</title>
                                 </svg>
-                                <h2 style={{ "text-align": "center" }}> Online UG Admsission</h2>
+                                <Link to="/Onlineapp" style={{color: "black", "text-align": "center" }}><h2> Online UG Admsission</h2> </Link>
                                 <p> <li> UG Cources</li>
                                 <ul> BBA</ul>
                                 <ul> BCA</ul>

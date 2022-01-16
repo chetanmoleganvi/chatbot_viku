@@ -14,7 +14,7 @@ const NavBarTop = () => {
       <Switch>
          <Route exact path="/" ><Home /></Route>
          <Route path="/scholarship"><Scholarship /></Route>
-         <Route path="/onlineapp"> <Onlineapp /></Route>
+         <Route path="/Onlineapp"> <Onlineapp /></Route>
 
 
       </Switch>
