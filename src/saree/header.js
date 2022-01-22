@@ -43,12 +43,12 @@ const Header = () => {
                                     <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
                                         <Image style={{ "align-items": "center" }} src={ONLINE} className="imagecenter" Height="100px" width="100px" />
 
-                                        <Link to="/cd viku" style={{ color: "white", "text-align": "center" }}> <h4> Online Application</h4></Link>
+                                        <Link to="/Online" style={{ color: "white", "text-align": "center" }}> <h4> Online Application</h4></Link>
 
                                     </div>
                                     <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
                                         <Image style={{ "align-items": "center" }} src={APPLICATION} className="imagecenter" Height="100px" width="100px" />
-                                        <Link to="/smartnetworking" style={{ color: "white", "text-align": "center" }}> <h4>Carees Guidence</h4></Link>
+                                        <Link to="/Career" style={{ color: "white", "text-align": "center" }}> <h4>Carees Guidence</h4></Link>
                                     </div>
                                 </div>
                             </div>

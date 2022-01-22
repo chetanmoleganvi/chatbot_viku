@@ -7,6 +7,8 @@ import {
 import Home from "../saree/home";
 import Scholarship from "../services/scholarship"
 import Onlineapp from "../services/onlineapp"
+import Online from "../services/online"
+import Career from "../services/career"
 
 const NavBarTop = () => {
   return (
@@ -15,7 +17,8 @@ const NavBarTop = () => {
          <Route exact path="/" ><Home /></Route>
          <Route path="/scholarship"><Scholarship /></Route>
          <Route path="/Onlineapp"> <Onlineapp /></Route>
-
+         <Route path="/Online"> <Online /></Route>
+         <Route path="/Career"> <Career /></Route>
 
       </Switch>
     </Router>

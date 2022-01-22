@@ -9,7 +9,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 import Header from '../saree/header';
 import Footer from '../saree/footer'
 
-function Scholarship() {
+const Scholarship = () => {  window.scrollTo(0, 0);
+
+
     return (
         <>
             <Header />

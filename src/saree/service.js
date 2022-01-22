@@ -6,6 +6,10 @@ import Schlorship from '../images/ship.jpg';
 import { Link } from 'react-router-dom';
 
 const Services = () => {
+    const goToTop = () => window.scrollTo(0, 0);
+
+goToTop();
+
 	return (
             <main role="main" className="container">
                <div id="services">
@@ -19,7 +23,7 @@ const Services = () => {
                                     <image href={Schlorship} alt="Tool-img" width="80%" height="80%" />
                                     <title>Placeholder</title>
                                 </svg>
-                               <Link to ="/scholarship" style={{ color: "black", "text-align": "center" }}> <h2 style={{ "text-align": "center", "paddingtop":"2" }}>Online Schlorship from </h2> </Link>
+                               <Link to ="/scholarship"  onClick={() => goToTop}style={{ color: "black", "text-align": "center" }}> <h2 style={{ "text-align": "center", "paddingtop":"2" }}>Online Schlorship from </h2> </Link>
                                 <p>
                                 <li> N S P</li>
                                 <li> S S P</li> 
@@ -34,7 +38,7 @@ const Services = () => {
                                     <image href={RCUB} alt="Tool-img" width="80%" hight="80%" />
                                     <title>Placeholder</title>
                                 </svg>
-                                <Link to="/Onlineapp" style={{color: "black", "text-align": "center" }}><h2> Online UG Admsission</h2> </Link>
+                                <Link to="/Onlineapp" onClick={() => goToTop} style={{color: "black", "text-align": "center" }}><h2> Online UG Admsission</h2> </Link>
                                 <p> <li> UG Cources</li>
                                 <ul> BBA</ul>
                                 <ul> BCA</ul>
@@ -47,7 +51,7 @@ const Services = () => {
                                     <image href={Online} alt="Tool-img" width="80%" hight="80%" />
                                     <title>Placeholder</title>
                                 </svg>
-                                <h2 style={{ "text-align": "center" }}>All type of Online Application </h2>
+                                <Link to="/Online" onClick={() => goToTop} style={{color: "black", "text-align": "center" }}><h2 style={{ "text-align": "center" }}>All type of Online Application </h2> </Link>
                                 <p>
                                 <li> Pan Card</li>
                                 <li> Adhar PVC Card</li>
@@ -62,7 +66,7 @@ const Services = () => {
                                     <image href={Career} alt="Tool-img" width="100%" hight="100%" />
                                     <title>Placeholder</title>
                                 </svg>
-                                <h2 style={{ "text-align": "center" }}>Carees Guidenence</h2>
+                              <Link to="/Career" onClick={() => goToTop} style={{color: "black", "text-align": "center" }}> <h2 style={{ "text-align": "center" }}>Carees Guidenence</h2></Link> 
                                 <p>
                                 <li> Campus Drive Informaction</li>
                                 <li> OFF Campus Drive Informaction</li>

@@ -4,7 +4,9 @@ import Header from '../saree/header';
 import { Row, Col } from 'react-bootstrap';
 import Footer from '../saree/footer'
 
-function Onlineapp() {
+const Onlineapp = () => {  window.scrollTo(0, 0);
+
+
    return (
       <>
             <Header />
