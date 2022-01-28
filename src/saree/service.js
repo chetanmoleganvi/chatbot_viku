@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal';
 import RCUB from '../images/rcub.png';
 import Online  from '../images/online.png';
 import Career from '../images/career.png';
@@ -12,12 +13,17 @@ goToTop();
 
 	return (
             <main role="main" className="container">
+                <Fade right>
                <div id="services">
-               <h1> Our Company Serivces</h1>
+               
+          <h1>Our Company Serivces </h1>
+          
+               <h1> </h1>
                </div>
                 <div className="container marketing">
                
                     <div className="row">
+                   
                             <div className="col-lg-3">
                                 <svg className="bd-placeholder-img" width="300" height="300" xmlns="http://www.w3.org/3000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 300x300">
                                     <image href={Schlorship} alt="Tool-img" width="80%" height="80%" />
@@ -80,6 +86,7 @@ goToTop();
                             <hr className="featurette-divider" />
                     </div>
                 </div>
+                </Fade>
             </main>
 	)
 };

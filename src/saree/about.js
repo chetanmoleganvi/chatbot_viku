@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal';
 import Directors from '../images/shilpa.jpg';
 import FounderPic from '../images/chetan.JPG';
 import Logo from '../images/logo.jpg';
@@ -8,8 +9,11 @@ class About extends React.Component {
     render() {
       return (
         <div className="album py-5 bg-bg-transparent" id="about" style={{ paddingTop: "3rem"}}>
+            <Fade left>
         <div className="container" >
+      
           <h1>About us </h1>
+          
           <div className="row">
             <div className="col-md-4">
               <div className="card mb-4 shadow-sm">                
@@ -73,6 +77,7 @@ class About extends React.Component {
             </div>
         </div>
     </div>
+    </Fade>
     </div>
        );
     }

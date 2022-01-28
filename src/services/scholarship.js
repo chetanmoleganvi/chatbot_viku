@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from 'react-reveal';
 import { Row, Col, Image } from 'react-bootstrap';
 import Jindal from '../images/jindal.png';
 import NSP from '../images/nsp.jpg';
@@ -15,6 +16,7 @@ const Scholarship = () => {  window.scrollTo(0, 0);
     return (
         <>
             <Header />
+           <Fade right>
             <div className="container" style={{ marginTop: "40px" }}>
                 <Row>
                     <Col>
@@ -45,9 +47,10 @@ const Scholarship = () => {  window.scrollTo(0, 0);
                 <hr className="featurette-divider" />
             </div>
 
-
+            </Fade>
 
             <div className="container">
+            <Fade left>
                 <Row>
                     <Col>
                         <h2 style={{ textAlign: "center" }}><b> National Scholarship Portal (NSP) </b></h2>
@@ -83,10 +86,11 @@ const Scholarship = () => {  window.scrollTo(0, 0);
                 <div id="ssp">
 
                 </div>
+                </Fade>
             </div>
 
             <div className="container">
-
+            <Fade left>
                 <hr className="featurette-divider" />
 
                 <Row>
@@ -117,7 +121,7 @@ const Scholarship = () => {  window.scrollTo(0, 0);
                         </ul>
                     </Col>
                     <Col>
-                        <h2 style={{ textAlign: "center" }}> NSP</h2>
+                        <h2 style={{ textAlign: "center" }}> SSP</h2>
                         <p style={{ textAlign: "center" }}>State Scholarship Portal (SSP)</p>
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                             <image href={SSP} alt="logo-img" width="100%" hight="100%" /></svg>
@@ -128,10 +132,11 @@ const Scholarship = () => {  window.scrollTo(0, 0);
                 <div id="jindal">
 
                 </div>
+                </Fade>
             </div>
 
             <div className="container">
-
+            <Fade right>
                 <hr className="featurette-divider" />
 
                 <Row>
@@ -170,9 +175,10 @@ const Scholarship = () => {  window.scrollTo(0, 0);
                 <div id="help" >
 
                 </div>
+                </Fade>
             </div>
             <div className="container">
-
+            <Fade right>
                 <hr className="featurette-divider" />
 
                 <Row>
@@ -208,7 +214,9 @@ const Scholarship = () => {  window.scrollTo(0, 0);
                             <image href={Help} alt="logo-img" width="100%" hight="100%" /></svg>
                     </Col>
                 </Row>
+                </Fade>
             </div>
+           
             <div className="container">
 
                 <hr className="featurette-divider" />

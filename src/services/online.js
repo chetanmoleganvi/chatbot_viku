@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from 'react-reveal';
 import { Row, Col, Image } from 'react-bootstrap';
 import Pan from '../images/pan.jpg';
 import PVC from '../images/pvc.jpg';
@@ -19,6 +20,7 @@ const Online = () => {
         <>
             <Header />
             <div className="container" style={{ marginTop: "40px" }}>
+                <Fade right>
                 <Row>
                     <Col>
                         <Link to="#Pan">
@@ -54,15 +56,15 @@ const Online = () => {
 
 
                 </Row>
+                </Fade>
                 <div id="Pan">
 
                 </div>
                 <hr className="featurette-divider" />
             </div>
-
-
-
-            <div className="container">
+           
+                            <div className="container">
+                            <Fade left>
                 <Row>
                     <Col>
                         <h2 style={{ textAlign: "center" }}><b> Permanent Account Number (PAN) </b></h2>
@@ -93,13 +95,15 @@ const Online = () => {
                     </Col>
 
                 </Row>
+                </Fade>
                 <div id="PVC">
 
                 </div>
+               
             </div>
 
             <div className="container">
-
+            <Fade right>
                 <hr className="featurette-divider" />
 
                 <Row>
@@ -133,13 +137,14 @@ const Online = () => {
 
 
                 </Row>
+                </Fade>
                 <div id="RATION">
 
                 </div>
             </div>
 
             <div className="container">
-
+            <Fade left>
                 <hr className="featurette-divider" />
 
                 <Row>
@@ -172,12 +177,13 @@ const Online = () => {
                     </Col>
 
                 </Row>
+              </Fade>
                 <div id="INCOME" >
 
                 </div>
             </div>
             <div className="container">
-
+            <Fade right>
                 <hr className="featurette-divider" />
 
                 <Row>
@@ -209,13 +215,14 @@ const Online = () => {
                             <image href={INCOME} alt="logo-img" width="100%" hight="100%" /></svg>
                     </Col>
                 </Row>
+                </Fade>
                 <div id="Passport">
 
                 </div>
             </div>
             <div className="container">
                 <hr className="featurette-divider" />
-
+                <Fade left>
                 <Row>
                     <Col>
                         <h2 style={{ textAlign: "center" }}><b> PASSPORT SEVA </b></h2>
@@ -247,12 +254,13 @@ const Online = () => {
                     </Col>
 
                 </Row>
+                </Fade>
                 <div id="BUSPASS">
-
+               
                 </div>
             </div>
             <div className="container">
-
+            <Fade right>
                 <hr className="featurette-divider" />
 
                 <Row>
@@ -289,6 +297,7 @@ const Online = () => {
 
 
                 </Row>
+                </Fade>
                 
             </div>
 
