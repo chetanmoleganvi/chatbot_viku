@@ -11,9 +11,6 @@ import APPLICATION from '../images/application.jpg';
 import '../css/carousel.css';
 import '../css/Dropdown.css';
 
-
-
-
 const Header = () => {
     const [expanded, setExpanded] = useState(false);
 
@@ -21,7 +18,7 @@ const Header = () => {
 
         <Container>
             <Navbar expand="lg" expanded={expanded} fixed="top" variant="dark" style={{ backgroundColor: 'rgb(0, 0, 88)' }} onClick={() => setExpanded(expanded ? false : "expanded")}>
-                <Navbar.Brand href="#home"><img src={Logo} alt="logo" width="100" height="60" /></Navbar.Brand>
+                <Link to="/"><img src={Logo} alt="logo" width="100" height="60" /></Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -29,33 +26,33 @@ const Header = () => {
                         <Link to="#about" className="nav-link line current" onClick={() => setExpanded(false)}>About</Link>
 
                         <div class="menudropdown">
-                        <Link to="#services" className="nav-link line current" onClick={() => setExpanded(false)}>Services</Link>
+                            <Link to="#services" className="nav-link line current" onClick={() => setExpanded(false)}>Services</Link>
                             <div class="menudropdown-content" style={{ paddingTop: "0.9rem" }}>
 
                                 <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}  >
                                     <Image src={SCHOLARSHIP} className="imagecenter" Height="100px" width="100px" />
                                     <Link to="/scholarship" style={{ color: "white", "text-align": "center" }}> <h4>Scholarship</h4> </Link>
-                                    </div>
-                                    <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                                        <Image style={{ "align-items": "center" }} src={UG} className="imagecenter" Height="100px" width="100px" />
-                                        <Link to='/onlineapp' style={{ color: "white", "text-align": "center" }}> <h4> Online UG Admission </h4></Link>
-                                    </div>
-                                    <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                                        <Image style={{ "align-items": "center" }} src={ONLINE} className="imagecenter" Height="100px" width="100px" />
+                                </div>
+                                <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
+                                    <Image style={{ "align-items": "center" }} src={UG} className="imagecenter" Height="100px" width="100px" />
+                                    <Link to='/onlineapp' style={{ color: "white", "text-align": "center" }}> <h4> Online UG Admission </h4></Link>
+                                </div>
+                                <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
+                                    <Image style={{ "align-items": "center" }} src={ONLINE} className="imagecenter" Height="100px" width="100px" />
 
-                                        <Link to="/Online" style={{ color: "white", "text-align": "center" }}> <h4> Online Application</h4></Link>
+                                    <Link to="/Online" style={{ color: "white", "text-align": "center" }}> <h4> Online Application</h4></Link>
 
-                                    </div>
-                                    <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                                        <Image style={{ "align-items": "center" }} src={APPLICATION} className="imagecenter" Height="100px" width="100px" />
-                                        <Link to="/Career" style={{ color: "white", "text-align": "center" }}> <h4>Carees Guidence</h4></Link>
-                                    </div>
+                                </div>
+                                <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
+                                    <Image style={{ "align-items": "center" }} src={APPLICATION} className="imagecenter" Height="100px" width="100px" />
+                                    <Link to="/Career" style={{ color: "white", "text-align": "center" }}> <h4>Carees Guidence</h4></Link>
                                 </div>
                             </div>
-                   
+                        </div>
+
                         <Link to="#contact" className="nav-link line " onClick={() => setExpanded(false)}>Contact</Link>
                         <Link to="#form" className="nav-link line " onClick={() => setExpanded(false)}>Registration </Link>
- 
+
                     </Nav>
                     <Form inline>
                         <span style={{ fontSize: "16px", color: 'white' }}><i className="fa fa-phone"></i>&emsp;<Link to="+91 9880104339" style={{ color: "grey" }}> +91 9880104339 </Link>  </span>&emsp;
