@@ -12,7 +12,13 @@ import Footer from '../saree/footer'
 
 const Scholarship = () => {
     window.scrollTo(0, 0);
-
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      };
+    
 
     return (
         <>
@@ -49,8 +55,11 @@ const Scholarship = () => {
                 </div>
 
             </Fade>
-
+            <div className="bottom-right-text" value="Click to Open scrolltop " onClick={scrollToTop} >
+        <i class="fa fa-arrow-up" style={{"font-size":"55px"}}></i>
+      </div>
             <div className="container">
+                
                 <Fade left>
                     <Row>
                         <Col>
